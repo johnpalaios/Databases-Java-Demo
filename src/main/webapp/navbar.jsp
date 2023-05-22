@@ -11,7 +11,7 @@
 <nav class="navbar navbar-light navbar-expand-md" id="nav-bar">
     <div id="navbar-div" class="container-fluid">
         <a class="navbar-brand" id="nav-bar-text" href="#">Databases NodeJS Demo</a>
-        <a id="navbar-items" href="/">
+        <a id="navbar-items" href="index.jsp">
             <i class="fa fa-home "></i> Landing
         </a>
     </div>

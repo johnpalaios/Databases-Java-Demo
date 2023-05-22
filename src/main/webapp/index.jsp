@@ -79,7 +79,7 @@
                     <div class="card-body" id="card">
                         <h4 class="card-title">Create Student</h4>
                         <p class="card-text" id="paragraph">Enter a new student into the database<br></p>
-                        <a class="btn btn-primary" id="show-btn" href="/insert-student.jsp">Create</a>
+                        <a class="btn btn-primary" id="show-btn" href="insert-student.jsp">Create</a>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+
 /*
 Navicat MySQL Data Transfer
 Source Server         : db-project-demo
@@ -25,7 +26,7 @@ CREATE TABLE `grades` (
   UNIQUE KEY `id_UNIQUE` (`id`),
   KEY `student_id` (`student_id`),
   CONSTRAINT `student_id` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of grades
@@ -54,7 +55,7 @@ CREATE TABLE `students` (
   `email` varchar(100) NOT NULL CHECK (`email` LIKE '_%@_%._%'),
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of students

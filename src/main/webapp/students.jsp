@@ -136,7 +136,7 @@
             document.getElementById("surname").value = row.dataset.surname;
             document.getElementById("email").value = row.dataset.email;
 
-            document.getElementById("modal-form").action = "/update-student-controller.jsp";
+            document.getElementById("modal-form").action = "update-student-controller.jsp";
             document.getElementById("modal-form").method = "POST";
         }
     </script>
